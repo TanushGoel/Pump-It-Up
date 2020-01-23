@@ -2,9 +2,13 @@
 Predicting which pumps are functional, which need some repairs, and which don't work at all using data from Taarifa and the Tanzanian Ministry of Water. A smart understanding of which waterpoints will fail can improve maintenance operations and ensure that clean, potable water is available to communities across Tanzania. 
 
 The data was mapped to numerical values in the notebooks:
+
 functional: 1
+
 functional needs repair: 0
+
 nonfunctional: -1
+
 
 ## Data
 
@@ -50,6 +54,7 @@ The data was taken from [DrivenData](drivendata.org) from the [Pump it Up: Data 
 37) source_class - The source of the water
 38) waterpoint_type - The kind of waterpoint
 39) waterpoint_type_group - The kind of waterpoint
+
 
 ### Libraries
 - [Pandas](https://github.com/pandas-dev/pandas)
