@@ -24,7 +24,7 @@ The data was taken from [DrivenData](drivendata.org) from the [Pump it Up: Data 
 
 [Training set values](https://s3.amazonaws.com/drivendata/data/7/public/4910797b-ee55-40a7-8668-10efd5c1b960.csv)
 
-**Features**
+### Features
 1) amount_tsh - Total static head (amount water available to waterpoint)
 2) date_recorded - The date the row was entered
 3) funder - Who funded the well
