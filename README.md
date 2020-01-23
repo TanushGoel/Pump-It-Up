@@ -14,6 +14,14 @@ nonfunctional: -1
 
 The data was taken from [DrivenData](drivendata.org) from the [Pump it Up: Data Mining the Water Table](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/) competition.
 
+[Submission Format](https://s3.amazonaws.com/drivendata/data/7/public/SubmissionFormat.csv)
+
+[Test set values](https://s3.amazonaws.com/drivendata/data/7/public/702ddfc5-68cd-4d1d-a0de-f5f566f76d91.csv)
+
+[Training set labels](https://s3.amazonaws.com/drivendata/data/7/public/0bf8bc6e-30d0-4c50-956a-603fc693d966.csv)
+
+[Training set values](https://s3.amazonaws.com/drivendata/data/7/public/4910797b-ee55-40a7-8668-10efd5c1b960.csv)
+
 **Features**
 1) amount_tsh - Total static head (amount water available to waterpoint)
 2) date_recorded - The date the row was entered
