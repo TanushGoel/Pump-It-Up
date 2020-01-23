@@ -14,6 +14,8 @@ nonfunctional: -1
 
 The data was taken from [DrivenData](drivendata.org) from the [Pump it Up: Data Mining the Water Table](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/) competition.
 
+### Downloads
+
 [Submission Format](https://s3.amazonaws.com/drivendata/data/7/public/SubmissionFormat.csv)
 
 [Test set values](https://s3.amazonaws.com/drivendata/data/7/public/702ddfc5-68cd-4d1d-a0de-f5f566f76d91.csv)
