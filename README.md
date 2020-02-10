@@ -9,7 +9,6 @@ functional needs repair: 0
 
 nonfunctional: -1
 
-
 ## Data
 
 The data was taken from [DrivenData](drivendata.org) from the [Pump it Up: Data Mining the Water Table](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/) competition.
@@ -65,6 +64,19 @@ The data was taken from [DrivenData](drivendata.org) from the [Pump it Up: Data 
 38) waterpoint_type - The kind of waterpoint
 39) waterpoint_type_group - The kind of waterpoint
 
+## Notes
+
+The dataset was mainly strings for most of the features in both the training and testing datasets. The notebook "Pump_It_Up_Water_Tokenizing" was made to turn all the values of both datasets (which were put together in "PumpItUpAll.csv") into distinct integer values for each string. The missing values were then filled using MICE via Microsoft's Machine Learning Studio and separated back into the two training and testing sets ("PumpItUpTokenizedCleanedMICE_train.csv" & "PumpItUpTokenizedCleanedMICE_test.csv"). Probabalistic PCA was tried to fill in missing data, but achieved a lower accuracy. 
+
+An ensemble of the catboost trees, random forest, and extra trees classifiers were used in the final submission. I used 30 different catboost trees simply so I could see the differences between them such as feature importances. If storage is an issue, only use one classifier and append its predictions to the submission over each fold. 
+
+
+Many techniques were used in the data engineering of this project
+
+A "geohash" feature was created using lattitude and longitude features
+Three geohashes were made using different precisions. The first geohash feature (geohash1) separates the area into 6 different regions and the second (geohash2) into 56 regions. The third geohash feature (geohash3) seprates the area into 946 regions in the training set, but only 857 of these are seen in the testing set.
+
+PCA (principal component analysis) was used to reduce the dimensionality of the 39-feature dataset. The dataset had very similar feature pairs such as "waterpoint_type" and "water_point_type_group" or "source" "source_type" and "source_class" which were simplified into "waterpoint" and "ss".
 
 ### Libraries
 - [Pandas](https://github.com/pandas-dev/pandas)
