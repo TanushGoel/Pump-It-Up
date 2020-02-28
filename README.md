@@ -90,3 +90,4 @@ The data was taken from [DrivenData](https://www.drivendata.org) from the [Pump 
 - [Seaborn](https://github.com/mwaskom/seaborn)
 - [Scikit-Learn](https://github.com/scikit-learn/scikit-learn)
 - [Catboost](https://github.com/catboost/catboost)
+- [Folium](https://github.com/python-visualization/folium/tree/master/folium)
