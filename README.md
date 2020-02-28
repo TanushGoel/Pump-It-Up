@@ -18,7 +18,7 @@ An ensemble of the catboost trees, random forest, and extra trees classifiers we
 
 Many techniques were used in the data engineering of this project
 
-A "geohash" feature was created using lattitude and longitude features
+A "geohash" feature was created using latitude and longitude features
 Three geohashes were made using different precisions. The first geohash feature (geohash1) separates the area into 6 different regions and the second (geohash2) into 56 regions. The third geohash feature (geohash3) seprates the area into 946 regions in the training set, but only 857 of these are seen in the testing set.
 
 The locations of the pumps were also displayed on an interactive heat-map of Africa specifically zoomed in on Tanzania, using the lattitude and longitude features. 
