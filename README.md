@@ -24,7 +24,7 @@ Three geohashes were made using different precisions. The first geohash feature 
 The locations of the pumps were also displayed on an interactive heat-map of Africa specifically zoomed in on Tanzania, using the lattitude and longitude features. 
 ![Heatmaps](https://github.com/TanushGoel/Pump-It-Up/issues/1)
 
-PCA (principal component analysis) was used to reduce the dimensionality of the 39-feature dataset. The dataset had very similar feature pairs such as "waterpoint_type" and "water_point_type_group" or "source" "source_type" and "source_class" which were simplified into "waterpoint" and "ss".
+PCA (principal component analysis) was used to reduce the dimensionality of the 39-feature dataset. The dataset had very similar feature pairs and trios such as "waterpoint_type" and "water_point_type_group" or "source" "source_type" and "source_class" which were simplified into "waterpoint" and "ss".
 
 New features were created using existing ones. 
 
