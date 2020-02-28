@@ -30,7 +30,7 @@ New features were created using existing ones.
 
 ## Data
 
-The data was taken from [DrivenData](drivendata.org) from the [Pump it Up: Data Mining the Water Table](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/) competition.
+The data was taken from [DrivenData](https://www.drivendata.org) from the [Pump it Up: Data Mining the Water Table](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/) competition.
 
 ### Downloads
 
