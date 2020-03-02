@@ -22,7 +22,7 @@ A "geohash" feature was created using latitude and longitude features
 Three geohashes were made using different precisions. The first geohash feature (geohash1) separates the area into 6 different regions and the second (geohash2) into 56 regions. The third geohash feature (geohash3) seprates the area into 946 regions in the training set, but only 857 of these are seen in the testing set.
 
 The locations of the pumps were also displayed on an interactive heat-map of Africa specifically zoomed in on Tanzania, using the lattitude and longitude features. 
-![Heatmaps](https://github.com/TanushGoel/Pump-It-Up/issues/1)
+Heatmaps: ![Heatmaps](https://github.com/TanushGoel/Pump-It-Up/issues/1)
 
 PCA (principal component analysis) was used to reduce the dimensionality of the 39-feature dataset. The dataset had very similar feature pairs and trios such as "waterpoint_type" and "water_point_type_group" or "source" "source_type" and "source_class" which were simplified into "waterpoint" and "ss".
 
