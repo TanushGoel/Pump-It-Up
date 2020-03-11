@@ -18,8 +18,7 @@ An ensemble of the catboost trees, random forest, and extra trees classifiers we
 
 Many techniques were used in the data engineering of this project
 
-A "geohash" feature was created using latitude and longitude features
-Three geohashes were made using different precisions. The first geohash feature (geohash1) separates the area into 6 different regions and the second (geohash2) into 56 regions. The third geohash feature (geohash3) seprates the area into 946 regions in the training set, but only 857 of these are seen in the testing set.
+A "geohash" feature was created using latitude and longitude features. Three geohashes were made using different precisions. The first geohash feature (geohash1) separates the area into 6 different regions and the second (geohash2) into 56 regions. The third geohash feature (geohash3) seprates the area into 946 regions in the training set, but only 857 of these are seen in the testing set.
 
 The locations of the pumps were also displayed on an interactive heat-map of Africa specifically zoomed in on Tanzania, using the lattitude and longitude features. 
 Heatmaps: ![Heatmaps](https://github.com/TanushGoel/Pump-It-Up/issues/1)
@@ -31,6 +30,12 @@ New features were created using existing ones.
 ## Data
 
 The data was taken from [DrivenData](https://www.drivendata.org) from the [Pump it Up: Data Mining the Water Table](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/) competition.
+
+The data for this comeptition comes from the Taarifa waterpoints dashboard, which aggregates data from the Tanzania Ministry of Water.
+
+Taarifa is an open source platform for the crowd sourced reporting and triaging of infrastructure related issues. Think of it as a bug tracker for the real world which helps to engage citizens with their local government. They are currently working on an Innovation Project in Tanzania, with various partners.
+
+More about Taarifa can be found on their [homepage](http://taarifa.org/), [blog](https://taarifa.wordpress.com/), and [Github](https://github.com/taarifa).
 
 ### Downloads
 
