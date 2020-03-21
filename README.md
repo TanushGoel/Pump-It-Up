@@ -14,6 +14,7 @@ nonfunctional: -1
 The dataset was mainly strings for most of the features in both the training and testing datasets. The notebook "Pump_It_Up_Water_Tokenizing" was made to turn all the values of both datasets (which were put together in "PumpItUpAll.csv") into distinct integer values for each string. The missing values were then filled using MICE via Microsoft's Machine Learning Studio and separated back into the two training and testing sets ("PumpItUpTokenizedCleanedMICE_train.csv" & "PumpItUpTokenizedCleanedMICE_test.csv"). Probabalistic PCA was tried to fill in missing data, but achieved a lower accuracy. 
 
 An ensemble of the catboost trees, random forest, and extra trees classifiers were used in the final submission. 
+For the catboost notebook, training with 100 kfolds took about 13.2 hours on an Nvidia P100 GPU. 
 
 
 Many techniques were used in the data engineering of this project
