@@ -13,7 +13,7 @@ nonfunctional: -1
 
 The dataset was mainly strings for most of the features in both the training and testing datasets. The notebook "Pump_It_Up_Water_Tokenizing" was made to turn all the values of both datasets (which were put together in "PumpItUpAll.csv") into distinct integer values for each string. The missing values were then filled using MICE via Microsoft's Machine Learning Studio and separated back into the two training and testing sets ("PumpItUpTokenizedCleanedMICE_train.csv" & "PumpItUpTokenizedCleanedMICE_test.csv"). Probabalistic PCA was tried to fill in missing data, but achieved a lower accuracy. 
 
-An ensemble of the catboost trees, random forest, and extra trees classifiers were used in the final submission. I used 30 different catboost trees simply so I could see the differences between them such as feature importances. If storage is an issue, only use one classifier and append its predictions to the submission over each fold. 
+An ensemble of the catboost trees, random forest, and extra trees classifiers were used in the final submission. 
 
 
 Many techniques were used in the data engineering of this project
